@@ -4,7 +4,6 @@
   "version": "1.0.1",
   "author": "Feyza Gozutok",
   "private": true,
-  "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -16,15 +15,22 @@
     "vuex": "^2.4.0"
   },
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.29",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
+    "babel-plugin-istanbul": "^5.2.0",
     "babel-preset-env": "^1.5.1",
     "cross-env": "^3.0.0",
     "css-loader": "^3.0.0",
+    "expect": "^24.8.0",
     "file-loader": "^0.9.0",
+    "mocha": "^6.2.0",
+    "mocha-webpack": "^1.1.0",
+    "nyc": "^14.1.1",
     "vue-loader": "^12.1.0",
     "vue-template-compiler": "^2.3.3",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.4.5",
+    "webpack-node-externals": "^1.7.2"
   }
 }

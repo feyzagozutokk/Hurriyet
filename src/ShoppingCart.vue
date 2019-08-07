@@ -4,19 +4,21 @@
 
     <div id="shoppingCart" class="modal fade">
       <div class="modal-dialog">
-        <div class="modal-content">z
+        <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Shopping cart</h5>
             <button class="close" data-dismiss="modal">
               &times;
             </button>
+
           </div>
           <div class="modal-body">
             <table class="table">
+
               <tbody>
-                <tr v-for="(item, index) in cart">
-                  <td>{{ item.name }}</td>
-                  <td>{{ item.price | dollars }}</td>
+                <tr v-for="(index) in cart">
+                  <td>{{ index.name }}</td>
+                  <td>{{ index.price | dollars }}</td>
                   <td>
                     <button class="btn btn-sm btn-danger" @click="removeFromCart(index)">&times;</button>
                   </td>
@@ -41,6 +43,7 @@
 
 <script>
 import { dollars } from './filters';
+import axios from 'axios';
 
 export default {
   name: 'shoppingCart',
@@ -63,6 +66,18 @@ export default {
   },
   methods: {
     removeFromCart(index) { this.$store.dispatch('removeFromCart', index); },
+  },data(){
+    return {
+      info:null
+    }
   },
+  mounted: function(){
+
+    axios
+            .get('https://nonchalant-fang.glitch.me/listing')
+            .then(response => (this.info = response))
+  }
+
 };
 </script>
+

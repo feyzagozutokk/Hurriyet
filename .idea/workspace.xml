@@ -10,13 +10,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Olqo8pV0INexiW6CnOY9abww77" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha-webpack" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,6 +34,62 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Mocha.Item.vue">
+    <configuration name="HelloWorld.vue.Checking &lt;h2&gt; tag text" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha-webpack</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/testOne.spec.js</test-file>
+      <test-names>
+        <name value="HelloWorld.vue" />
+        <name value="Checking &lt;h2&gt; tag text" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Item.vue" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha-webpack</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/testOne.spec.js</test-file>
+      <test-names>
+        <name value="Item.vue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Item.vue.Checking &lt;h2&gt; tag text" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha-webpack</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/testOne.spec.js</test-file>
+      <test-names>
+        <name value="Item.vue" />
+        <name value="Checking &lt;h2&gt; tag text" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Item.vue" />
+        <item itemvalue="Mocha.Item.vue.Checking &lt;h2&gt; tag text" />
+        <item itemvalue="Mocha.HelloWorld.vue.Checking &lt;h2&gt; tag text" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,9 +102,18 @@
       <updated>1564562702539</updated>
       <workItem from="1564562703918" duration="5753000" />
       <workItem from="1564599976054" duration="457000" />
-      <workItem from="1564602160172" duration="14997000" />
-      <workItem from="1564777155326" duration="2935000" />
-      <workItem from="1564781721942" duration="44000" />
+      <workItem from="1564602160172" duration="13933000" />
+      <workItem from="1564777530879" duration="536000" />
+      <workItem from="1564781761916" duration="2687000" />
+      <workItem from="1564779615716" duration="8399000" />
+      <workItem from="1564842776550" duration="2640000" />
+      <workItem from="1564868041096" duration="5969000" />
+      <workItem from="1565030974886" duration="52000" />
+      <workItem from="1565031131459" duration="1478000" />
+      <workItem from="1565094994119" duration="3065000" />
+      <workItem from="1565098100425" duration="4510000" />
+      <workItem from="1565120885816" duration="28000" />
+      <workItem from="1565121266539" duration="125000" />
     </task>
     <servers />
   </component>

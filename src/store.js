@@ -9,9 +9,7 @@ export default new Vuex.Store({
   state: {
     forSale: [
       { id: " ", name: " ", price: " ",currency: " ",image:" " },
-      { id: " ", name: " ", price: " ",currency: " ",image:" " },
-      { id: " ", name: " ", price: " ",currency: " ",image:" " },
-      { id: " ", name: " ", price: " ",currency: " ",image:" " },
+
     ],
     inCart: [],
   },
