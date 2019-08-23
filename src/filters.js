@@ -1,7 +1,7 @@
-const dollars = num => `$${num / 100}`;
+const dollars = num => ` ₺${num }`;
 
 export { dollars };
 
 export default {
-  dollars,
+    dollars,
 };
