@@ -17,19 +17,19 @@
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.29",
     "babel-core": "^6.0.0",
-    "babel-loader": "^6.0.0",
+    "babel-loader": "^9.1.0",
     "babel-plugin-istanbul": "^5.2.0",
     "babel-preset-env": "^1.5.1",
     "cross-env": "^3.0.0",
     "css-loader": "^3.0.0",
     "expect": "^24.8.0",
-    "file-loader": "^0.9.0",
+    "file-loader": "^6.2.0",
     "mocha": "^6.2.0",
     "mocha-webpack": "^1.1.0",
     "nyc": "^14.1.1",
     "vue-loader": "^12.1.0",
     "vue-template-compiler": "^2.3.3",
-    "webpack": "^2.6.1",
+    "webpack": "^5.74.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-node-externals": "^1.7.2"
   }
